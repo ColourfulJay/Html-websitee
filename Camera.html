@@ -116,7 +116,7 @@
 
     <form name="camera-questions" id="c-questions" method="get">
       <fieldset form="Skills" name="Skill-time">
-        <legend>How experienced are you in photography?</legend>
+        <legend>Do you own a camera?</legend>
     <input 
 
 
@@ -126,7 +126,7 @@
     value="i do" />
 
 
-    <label for="i have">I have little experience</label>
+    <label for="i have">I do</label>
     <br />
 
     <input 
@@ -138,6 +138,48 @@
 
     <label for="i do not">I dont</label>
     <br />
+      </fieldset>
+
+      <form name="camera-questions2" id="c-questions2" method="get">
+      <fieldset form="Skills" name="Skill-time">
+        <legend>Do you have mutiple</legend>
+    <input 
+
+
+    type="radio"
+    name="i have"
+    id="0-1"
+    value="0-1" />
+
+
+    <label for="i have">0-1</label>
+    <br />
+
+    <input 
+    type="radio"
+    name="2-3 "
+    id="2-3"
+    value="2-3" />
+
+
+    <label for="2-3">2-3</label>
+    <br />
+
+    <input 
+    type="radio"
+    name="4+ "
+    id="4+"
+    value="4+" />
+
+
+    <label for="4+">4+</label>
+    <br />
+      </fieldset>
+
+      <form action="/action_page.php">
+  <label for="favcolor">What color is your camera?</label>
+  <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+  <br>
     
     
     <br />
